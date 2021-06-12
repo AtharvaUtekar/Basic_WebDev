@@ -1,0 +1,128 @@
+body{
+    margin: 10px;
+    text-align: center;
+    background-color: #d4f3ef;
+}
+h1{
+  margin-top: 200px;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.top{
+  color: #f2a365;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 28px;
+  background-color: #d4f3ef;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-width: 10px;
+}
+.profilepic{
+  border-radius: 75%;
+  border-style: groove;
+  height:325px;
+  width:325px;
+}
+.middle{
+  margin: auto;
+  text-align: center;
+  color: #ff6768;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  margin-top: 50px;
+  padding: 15px;
+  border-width: 10px;
+}
+  .phn{
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+  }
+  .phn:hover{
+    height: 70px;
+    width: 70px;
+  }
+  .iskill{
+    border-radius: 50%;
+    display: inline-block;
+    height:175px;
+    width:175px;
+    padding: 15px;
+  }
+  .iskill:hover{
+    height: 210px;
+    width: 210px;
+  }
+  .skill1:hover{
+    background-color: #abf0e9;
+  }
+  .skill2:hover{
+    background-color: #abf0e9;
+  }
+  .skill3:hover{
+    background-color: #abf0e9;
+  }
+  .skill4:hover{
+    background-color: #abf0e9;
+  }
+  .contact-me{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+.bottom{
+  background-color: #63b7af;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 15px;
+  padding: 15px;
+  border-width: 10px;
+}
+.p{
+  display: inline-block;
+}
+.i1{
+  position: absolute;
+  bottom: 350px;
+  left: 220px;
+  height: 150px;
+  width: 200px;
+}
+.i2{
+  position: absolute;
+  bottom: 510px;
+  height: 175px;
+  width: 215px;
+  left: 450px;
+}
+.i3{
+  position: absolute;
+  bottom: 450px;
+  height: 150px;
+  right: 175px;
+  width: 200px;
+}
+.i4{
+  position: absolute;
+  bottom: 275px;
+}
+.i5{
+  position: absolute;
+  bottom: 550px;
+  height: 150px;
+  width: 175px;
+  right: 515px;
+}
+.i6{
+  position: absolute;
+  bottom: 325px;
+  height: 60px;
+  width: 75px;
+  right: 950px;
+}
+.star{
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
