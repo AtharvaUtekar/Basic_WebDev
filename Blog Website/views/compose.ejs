@@ -1,0 +1,14 @@
+<%- include('../views/partials/header'); %>
+
+    <h1> COMPOSE </h1>
+    <form action="/compose" method="post" class="form-group">
+        <label for="Title">Title: </label>
+        <input type="text" class="form-control" name="postTitle"  placeholder="Enter Title" autocomplete="off">
+        <br>
+        <label for="Post">Post: </label>
+        <textarea class="form-control" name="postBody" placeholder="Let's start bloging..." rows="3"></textarea>
+        <br>
+        <button name="button" class="btn btn-primary" type="submit"> ➕ Publish </button>
+    </form>
+    
+<%- include('../views/partials/footer'); %>
